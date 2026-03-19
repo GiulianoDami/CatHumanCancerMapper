@@ -1,0 +1,37 @@
+{
+    "language": "TypeScript",
+    "dependency_file": "package.json",
+    "dependencies": ["lodash"],
+    "files": [
+        {
+            "path": "src/CancerMapper.ts",
+            "description": "Main class for analyzing genetic mutation patterns between cats and humans",
+            "exports": ["class CancerMapper"]
+        },
+        {
+            "path": "src/types.ts",
+            "description": "Type definitions for genetic data and analysis results",
+            "exports": ["interface MutationData", "interface AnalysisResults"]
+        },
+        {
+            "path": "src/EnvironmentAnalyzer.ts",
+            "description": "Module for analyzing environmental risk factors",
+            "exports": ["class EnvironmentAnalyzer"]
+        },
+        {
+            "path": "src/GeneComparator.ts",
+            "description": "Module for comparing gene sequences and calculating similarity scores",
+            "exports": ["class GeneComparator"]
+        },
+        {
+            "path": "src/TreatmentEngine.ts",
+            "description": "Engine for generating treatment recommendations based on shared mutations",
+            "exports": ["class TreatmentEngine"]
+        },
+        {
+            "path": "src/index.ts",
+            "description": "Entry point exporting all core functionality",
+            "imports_from_other_files": ["CancerMapper.ts", "types.ts", "EnvironmentAnalyzer.ts", "GeneComparator.ts", "TreatmentEngine.ts"]
+        }
+    ]
+}
