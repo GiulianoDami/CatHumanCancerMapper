@@ -1,0 +1,30 @@
+{
+  "name": "cat-human-cancer-mapper",
+  "version": "1.0.0",
+  "description": "A TypeScript tool that analyzes genetic mutation patterns between cats and humans to identify potential cross-species cancer treatments and shared environmental risk factors",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "genomics",
+    "cancer-research",
+    "typescript",
+    "bioinformatics",
+    "veterinary",
+    "human-medicine"
+  ],
+  "author": "CatHumanCancerMapper Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.14.195",
+    "@types/node": "^20.11.17",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
